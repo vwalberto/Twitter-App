@@ -1,0 +1,46 @@
+<%- include('partials/header') %>
+<section class="full">
+     <div class="container">
+     <div class="row justify-content-center">
+     <div class="col-6">
+     <h1 class="wordmark mb-4">
+     <i class="fa-brands fa-twitter" style="color: #74C0FC;"></i>
+    <span class="logo">twitter</span>
+     </h1>
+    <h5 class="text-center">
+     Register 
+     <br>
+     Create a new account
+     </h5>
+    <form action="register" method="post" class="row g-3 justify-content-center">
+     <div class="col-md-7">
+     <label for="inputName4" class="form-label"><i class="fa-solid fa-user"></i> Name </i></label>
+     <input type="text" class="form-control" id="inputName4" name="name">
+     </div>    
+     <div class="col-md-7">
+    <label for="inputEmail4" class="form-label"><i class="fa-solid fa-envelope"></i> Email </i></label>
+     <input type="email" class="form-control" id="inputEmail4" name="email">
+     </div>    
+     <div class="col-md-7">
+    <label for="inputPassword4" class="form-label"><i class="fa-solid fa-key"></i> Password </i></label>
+     <input type="password" class="form-control" id="inputPassword4" name="password" autocomplete="off">
+    </div>  
+     <div class="col-7 d-flex justify-content-end">
+     <button type="submit" class="btn btn-primary">Register</button>
+     </div>
+     </form>
+     <div class="swap row justify-content-center mt-4">
+     <div class="col-7">
+    <p>
+    <a href="/login">
+    Already a user? Click here to login.
+    </a>
+     </p>
+     </div>
+  </div>     
+     </div>    
+     </div>    
+     </div>    
+    </section>    
+    <%- include('partials/footer') %>
+    
